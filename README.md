@@ -1,3 +1,4 @@
+MAJOR PROJECT 1 
 # 📰 Truth Lens — AI Fake News Detection System
 
 ## 📌 Overview
