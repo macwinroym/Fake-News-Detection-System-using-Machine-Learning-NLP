@@ -1,100 +1,121 @@
-MAJOR PROJECT 1 
+MAJOR PROJECT 1
 # 📰 Truth Lens — AI Fake News Detection System
 
-## 📌 Overview
-Truth Lens is a machine learning–based web application that detects whether a news article is **REAL or FAKE** using Natural Language Processing (NLP) techniques.
+## 🌐 Live Demo
 
-The system analyzes text patterns, word frequency, and statistical features to make predictions using multiple ML models.
+🚀 **Try the App Here:**
+👉 https://fake-news-detection-system-using-machine-learning-nlp-rhej62ye.streamlit.app/
+
+---
+
+## 📌 Overview
+
+**Truth Lens** is a machine learning–powered web application that detects whether a news article is **REAL or FAKE** using Natural Language Processing (NLP).
+
+The system analyzes textual patterns, word distributions, and statistical features to make accurate predictions using multiple machine learning models.
 
 ---
 
 ## 🚀 Features
-- 🔍 Detects Fake vs Real news
-- 🤖 Uses multiple ML models:
-  - Logistic Regression
-  - Decision Tree
-  - Random Forest
-- 📊 Ensemble-based final prediction (improved accuracy)
-- ⚡ Real-time prediction using Streamlit UI
-- 🎯 Confidence scores for each model
+
+* 🔍 Detects Fake vs Real news instantly
+* 🤖 Multiple ML models:
+
+  * Logistic Regression
+  * Decision Tree
+  * Random Forest
+* 📊 Ensemble-based final prediction for improved accuracy
+* ⚡ Real-time predictions with interactive UI
+* 🎯 Confidence scores for each model
 
 ---
 
 ## 🧠 Tech Stack
-- Python
-- Streamlit
-- Scikit-learn
-- Pandas
-- NLP (TF-IDF Vectorization)
+
+* Python
+* Streamlit
+* Scikit-learn
+* Pandas
+* NLP (TF-IDF Vectorization)
 
 ---
 
 ## 📂 Project Structure
 
-app.py # Main Streamlit application
-Fake.csv # Fake news dataset
-True.csv # Real news dataset
-README.md # Project documentation
-
+```
+app.py          # Main Streamlit application  
+Fake.csv        # Fake news dataset  
+True.csv        # Real news dataset  
+requirements.txt # Dependencies  
+README.md       # Documentation  
+```
 
 ---
 
-## ▶️ How to Run the Project
+## ▶️ Run Locally
 
-### Step 1: Install dependencies
+### 1️⃣ Install dependencies
 
+```
 pip install -r requirements.txt
+```
 
+### 2️⃣ Run the app
 
-### Step 2: Run the application
-
+```
 streamlit run app.py
+```
 
+### 3️⃣ Open in browser
 
-### Step 3: Open in browser
-
+```
 http://localhost:8501
-
+```
 
 ---
 
 ## 🧪 How to Use
-1. Paste any news article into the input box  
-2. Click **DETECT →**  
-3. View predictions from multiple models  
-4. Check final verdict (REAL / FAKE)
+
+1. Paste a news article into the input box
+2. Click **DETECT →**
+3. View predictions from multiple models
+4. Check the final verdict (**REAL / FAKE**)
 
 ---
 
 ## ⚠️ Limitations
-- Model depends on training data patterns
-- May misclassify unseen or complex news articles
-- Not a replacement for professional fact-checking
+
+* Model depends on training dataset patterns
+* May misclassify complex or unseen news
+* Not a replacement for professional fact-checking
 
 ---
 
 ## 🔮 Future Improvements
-- Integration with live news APIs
-- Explainable AI (highlight influential words)
-- Deep learning models (BERT)
-- Real-time fact-checking sources
+
+* 🔗 Integration with live news APIs
+* 🧠 Explainable AI (word importance highlighting)
+* 🤖 Deep learning models (BERT)
+* 🌍 Real-time fact-checking sources
 
 ---
 
-## 📌 Final Step (Important for Reviewers)
+## 🎯 Why This Project Matters
 
-To fully experience the project:
-
-👉 Run the application locally or access the deployed version (if provided)  
-👉 Use sample or real-world news articles to test predictions  
-👉 Observe model confidence and final ensemble decision  
+With the rapid spread of misinformation, tools like **Truth Lens** help users quickly evaluate the credibility of news content using AI.
 
 ---
 
 ## 👨‍💻 Author
+
 **Macwin Roy**
 
 ---
 
-## 📎 Note
-This project is developed for academic and learning purposes to demonstrate the use of machine learning in fake news 
+## ⭐ Support
+
+If you like this project:
+
+* ⭐ Star the repository
+* 🔗 Share the live demo
+* 💡 Give feedback for improvements
