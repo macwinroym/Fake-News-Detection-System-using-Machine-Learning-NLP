@@ -1,4 +1,4 @@
-MAJOR PROJECT 1
+MINI PROJECT 1
 # 📰 Truth Lens — AI Fake News Detection System
 
 ## 🌐 Live Demo
